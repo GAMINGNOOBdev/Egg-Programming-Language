@@ -15,7 +15,7 @@ const char* Keywords_WithD[] = {
 };
 
 const char* Keywords_WithE[] = {
-    "enum", "extern", "else"
+    "enum", "extern", "else", "egg"
 };
 
 const char* Keywords_WithF[] = {
@@ -28,6 +28,10 @@ const char* Keywords_WithG[] = {
 
 const char* Keywords_WithL[] = {
     "long"
+};
+
+const char* Keywords_WithO[] = {
+    "omelet"
 };
 
 const char* Keywords_WithI[] = {
@@ -68,13 +72,15 @@ const char* All_Keywords[] = {
 
     "default", "do", "double",
 
-    "enum", "extern", "else",
+    "enum", "extern", "else", "egg"
 
     "float", "for", "fortan",
 
     "goto",
 
     "long",
+    
+    "omelet",
 
     "int", "if", "inline",
 
