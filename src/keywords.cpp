@@ -72,7 +72,7 @@ const char* All_Keywords[] = {
 
     "default", "do", "double",
 
-    "enum", "extern", "else", "egg"
+    "enum", "extern", "else", "egg",
 
     "float", "for", "fortan",
 

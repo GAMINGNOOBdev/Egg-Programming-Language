@@ -26,7 +26,8 @@ extern const char* Keywords_WithD[];
 #define KW_E_ENUM           0
 #define KW_E_EXTERN         1
 #define KW_E_ELSE           2
-#define KW_E_MAX_AMOUNT     3
+#define KW_E_EGG            3
+#define KW_E_MAX_AMOUNT     4
 extern const char* Keywords_WithE[];
 
 #define KW_F_FLOAT          0
@@ -48,6 +49,10 @@ extern const char* Keywords_WithI[];
 #define KW_L_LONG           0
 #define KW_L_MAX_AMOUNT     1
 extern const char* Keywords_WithL[];
+
+#define KW_O_OMLET          0
+#define KW_O_MAX_AMOUNT     1
+extern const char* Keywords_WithO[];
 
 #define KW_R_REGISTER       0
 #define KW_R_RESTRICT       1
@@ -96,30 +101,32 @@ extern const char* Keywords_WithW[];
 #define KW_ENUM           0x0A
 #define KW_EXTERN         0x0B
 #define KW_ELSE           0x0C
-#define KW_FLOAT          0x0D
-#define KW_FOR            0x0E
-#define KW_FORTAN         0x0F
-#define KW_GOTO           0x10
-#define KW_INT            0x11
-#define KW_IF             0x12
-#define KW_INLINE         0x13
-#define KW_LONG           0x14
-#define KW_REGISTER       0x15
-#define KW_RESTRICT       0x16
-#define KW_RETURN         0x17
-#define KW_SHORT          0x18
-#define KW_SIGNED         0x19
-#define KW_SIZEOF         0x1A
-#define KW_STATIC         0x1B
-#define KW_STRUCT         0x1C
-#define KW_SWITCH         0x1D
-#define KW_TYPEDEF        0x1E
-#define KW_UNION          0x1F
-#define KW_UNSIGNED       0x20
-#define KW_VOID           0x21
-#define KW_VOLATILE       0x22
-#define KW_WHILE          0x23
-#define KW_ALL_MAX_AMOUNT 0x24
+#define KW_EGG            0x0D
+#define KW_FLOAT          0x0E
+#define KW_FOR            0x0F
+#define KW_FORTAN         0x10
+#define KW_GOTO           0x11
+#define KW_INT            0x12
+#define KW_IF             0x13
+#define KW_INLINE         0x14
+#define KW_LONG           0x15
+#define KW_OMLET          0x16
+#define KW_REGISTER       0x17
+#define KW_RESTRICT       0x18
+#define KW_RETURN         0x19
+#define KW_SHORT          0x1A
+#define KW_SIGNED         0x1B
+#define KW_SIZEOF         0x1C
+#define KW_STATIC         0x1D
+#define KW_STRUCT         0x1E
+#define KW_SWITCH         0x1F
+#define KW_TYPEDEF        0x20
+#define KW_UNION          0x21
+#define KW_UNSIGNED       0x22
+#define KW_VOID           0x23
+#define KW_VOLATILE       0x24
+#define KW_WHILE          0x25
+#define KW_ALL_MAX_AMOUNT 0x26
 extern const char* All_Keywords[];
 
 #endif
