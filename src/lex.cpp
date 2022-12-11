@@ -5,7 +5,7 @@
 #include <cstring>
 #include "split.h"
 
-static uint8_t cmpStr( const char * str1 , const char * str2 , const size_t & length ) {
+uint8_t cmpStr( const char * str1 , const char * str2 , const size_t length ) {
     for ( size_t i = 0 ; i < length ; i ++ ) {
         if ( str1[i] != str2[i] ) {
             return 0;

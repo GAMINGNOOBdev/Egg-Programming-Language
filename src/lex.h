@@ -55,6 +55,8 @@ struct AbstractSyntaxTree{
     std::vector<AST_Node> Nodes;
 };
 
+uint8_t cmpStr( const char * str1 , const char * str2 , const size_t length );
+
 AbstractSyntaxTree ReadAST(const char* fileContents);
 
 struct Lexer
